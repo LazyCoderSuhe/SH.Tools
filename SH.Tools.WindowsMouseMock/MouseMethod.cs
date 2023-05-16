@@ -110,7 +110,6 @@ namespace SH.Tools.WindowsMouseMock
             var v =byte.Parse(((int)key).ToString("X2"));
             // 模拟按下A键
             keybd_event(v, 0, KEYEVENTF_EXTENDEDKEY, 0);
-
             // 模拟释放A键
             keybd_event(v, 0, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, 0);
         }
