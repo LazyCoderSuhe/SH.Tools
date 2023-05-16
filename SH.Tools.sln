@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SH.Tools.WindowsMouseMock", "SH.Tools.WindowsMouseMock\SH.Tools.WindowsMouseMock.csproj", "{A299B8D7-E695-4724-B348-B5EB6A3075D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E50A04A7-E101-48DA-817E-4236121787D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SH.Tools.WindowsMouseMock.Tests", "SH.Tools.WindowsMouseMock.Tests\SH.Tools.WindowsMouseMock.Tests.csproj", "{50D0C6C4-331C-4252-85A1-D2E66ACF82FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A299B8D7-E695-4724-B348-B5EB6A3075D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A299B8D7-E695-4724-B348-B5EB6A3075D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A299B8D7-E695-4724-B348-B5EB6A3075D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A299B8D7-E695-4724-B348-B5EB6A3075D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D0C6C4-331C-4252-85A1-D2E66ACF82FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D0C6C4-331C-4252-85A1-D2E66ACF82FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D0C6C4-331C-4252-85A1-D2E66ACF82FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D0C6C4-331C-4252-85A1-D2E66ACF82FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50D0C6C4-331C-4252-85A1-D2E66ACF82FA} = {E50A04A7-E101-48DA-817E-4236121787D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE9CF381-15BE-41FA-BC07-F5D57A5FEBC3}
+	EndGlobalSection
+EndGlobal
